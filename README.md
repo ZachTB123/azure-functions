@@ -1,2 +1,2 @@
 # azure-functions
-Varios Azure Functions work
+Various Azure Functions work
