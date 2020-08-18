@@ -20,7 +20,7 @@ type InvokeRequest struct {
 }
 
 func timerTrigger(w http.ResponseWriter, r *http.Request) {
-	log.Println("Timer trigger was invoked: Version 3")
+	log.Println("Timer trigger was invoked: Version 1")
 
 	invokeResponse := InvokeResponse{
 		Logs: []string{"success"},
